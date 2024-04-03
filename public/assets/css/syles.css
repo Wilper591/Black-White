@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Imbue", serif;
+}
+body {
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  text-decoration-line: underline;
+}
+
+label {
+  margin: 3rem;
+  font-size: 2rem;
+  text-decoration-line: underline;
+}
+div label button {
+    display: flex;
+}
+input {
+  margin: 2rem 2rem 0 2rem;
+  height: auto;
+  width: auto;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+button {
+  font-size: 1.3rem;
+  color: white;
+  height: 2.3rem;
+  width: 10rem;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 11rem;
+  }
+}
